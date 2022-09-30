@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+<header class="page-header">
+    <img src="images/logo.png" 
+    style= "width: 400px; height: 150px; object-fit: cover;"
+    alt="personal logo of andrea brown">
+  <nav class="main-navigation page-header__item">
+    <ul role="menubar" class="navigation-list">
+      <li role="presentation">
+        <a href="index.html" role="menuitem" 
+        class="navigation-list__item navigation-list__item--active">home</a>
+      </li>
+      <li role="presentation">
+        <a href="about.html" role="menuitem" 
+        class="navigation-list__item">aboutme</a>
+      </li>
+      <li role="presentation">
+        <a href="work.html" role="menuitem" 
+        class="navigation-list__item navigation-list__item--active">work</a>
+      </li>
+      <li role="presentation">
+        <a href="contact.html" role="menuitem" 
+        class="navigation-list__item">contact</a>
+      </li>
+    </ul>
+  </nav>
+  </header>
+<body>
+    <div class="contact">
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required>
+      
+        <label class="standard-label" for="contact-telephone">Telephone: </label>
+        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone">
+      
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea id="contact-message" required maxlength="240"></textarea>
+        <input type="submit" value="Send message">
+      </form>
+      <script src="js/tota11y.min.js"></script>
+      <br></br>
+        phone <a href="tel:+16192199392">+16192199392</a><br>
+        email <a href="mailto:annie@anniebrown.co">andrea@reliabl.ai</a><br>
+        <br></br>
+        <button><a target="_blank" href="https://www.linkedin.com/in/andreafrancesb/">
+          connect with me on linkedin</a></button>
+          
+      <br>
+      </div>
+      <br></br>
+    </body>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+      <!-- Github logo -->
+     <img src="images/github.png" alt="github logo"> 
+      <!-- Twitter logo -->
+      <img src="images/twitter.png" alt="twitter logo">
+      <!-- LinkedIn logo -->
+      <img src="images/linkedin.png" alt="linkedin logo">
+    </footer>
+    </html>
