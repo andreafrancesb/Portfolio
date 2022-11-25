@@ -9,12 +9,13 @@ Third Color (Light Pink): #EE99BB;
 
  :root {
   --primary-color: #f9f1e0;
+
   --secondary-color: #D035A1;
   --dark-grey: #2b2b2b;
   --font-family: 'Fira Code', monospace;
   --visited-link: #000000;
 }
- 
+
  body {
     font-family: var(  --font-family);
     font-weight: 300;
